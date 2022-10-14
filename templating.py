@@ -9,6 +9,7 @@ logging.basicConfig(
     level=logging.INFO, 
     format="[%(asctime)s: %(levelname)s]: %(message)s",
     )
+    
 while True:
     project_name = input("Enter Project Name:")
     if project_name != "":
