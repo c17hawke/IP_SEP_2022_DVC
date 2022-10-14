@@ -1,5 +1,11 @@
 # DVC - DL - TF - demo
 
+
+## DATASET - 
+https://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.tgz
+## Shubham's implementation
+https://github.com/EagleVector/ML_Regression_Project_California_House_Price_Prediction
+
 ## commands - 
 
 ### create a new env

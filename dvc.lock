@@ -1,0 +1,25 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/housing/pipeline/stage_01_data_ingestion.py
+    deps:
+    - path: configs/config.yaml
+      md5: ccb47bb6f6ef8b9a6c54229ebbc5d269
+      size: 322
+    - path: src/housing/components/data_ingestion.py
+      md5: ac63d61cfdedc0bd3ea000333c7b53c5
+      size: 963
+    - path: src/housing/config/configuration.py
+      md5: b754d1c66ccd199d5695d1901206f67d
+      size: 1012
+    - path: src/housing/entity/config_entity.py
+      md5: e090f497571653588f0fd2bc8cc4aa87
+      size: 236
+    - path: src/housing/pipeline/stage_01_data_ingestion.py
+      md5: 8514bdd14988fa0a8ea3b52103940b3e
+      size: 363
+    outs:
+    - path: artifacts/data_ingestion/
+      md5: 224c4d38d7743f8da95d5beedb41a1f9.dir
+      size: 3771784
+      nfiles: 4
